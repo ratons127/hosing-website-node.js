@@ -1,0 +1,116 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Zenexcloud Virtual Machines</title>
+    <meta name="description" content="Zenexcloud virtual machines for isolated compute, staging, and microservices." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="backdrop">
+      <div class="mesh"></div>
+      <div class="glow"></div>
+    </div>
+
+    <header class="nav">
+      <div class="logo">
+        <span class="logo-mark"></span>
+        <span>Zenexcloud</span>
+      </div>
+      <nav class="nav-links" id="navLinks">
+        <a href="/">Home</a>
+        <a href="/#all-services">All Services</a>
+        <a href="/login.html">Login</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main>
+      <section class="service-hero">
+        <span class="service-pill">Virtual Machines</span>
+        <h1>Isolated VMs for production and staging environments.</h1>
+        <p class="lead">
+          Build predictable environments for apps, testing, and microservices with full control over compute,
+          networking, and storage layers.
+        </p>
+        <div class="service-cta">
+          <button class="btn primary">Launch VM</button>
+          <button class="btn ghost">Get architecture help</button>
+        </div>
+      </section>
+
+      <section class="service-layout">
+        <div class="service-panel">
+          <h3>VM advantages</h3>
+          <ul>
+            <li>Dedicated virtual hardware with strict isolation</li>
+            <li>Custom images, snapshots, and rollback points</li>
+            <li>Private networking for multi-tier stacks</li>
+            <li>Performance monitoring and alerts</li>
+          </ul>
+        </div>
+        <div class="service-panel">
+          <h3>Demo pricing</h3>
+          <div class="pricing-table">
+            <div class="pricing-row">
+              <div>
+                <strong>VM Core</strong>
+                <span>2 vCPU / 4 GB RAM / 100 GB SSD</span>
+              </div>
+              <strong>$10/mo</strong>
+            </div>
+            <div class="pricing-row">
+              <div>
+                <strong>VM Pro</strong>
+                <span>4 vCPU / 8 GB RAM / 200 GB SSD</span>
+              </div>
+              <strong>$20/mo</strong>
+            </div>
+            <div class="pricing-row">
+              <div>
+                <strong>VM Ultra</strong>
+                <span>8 vCPU / 16 GB RAM / 400 GB SSD</span>
+              </div>
+              <strong>$40/mo</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <p class="eyebrow">Reliability</p>
+          <h2>Stable performance with granular controls.</h2>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Multi-region deploy</h3>
+            <p>Spin up VMs in any region with consistent policies.</p>
+          </article>
+          <article class="card">
+            <h3>Automation ready</h3>
+            <p>Provision via API, CLI, or IaC templates.</p>
+          </article>
+          <article class="card">
+            <h3>Security coverage</h3>
+            <p>Isolated kernels, dedicated VLANs, and secure images.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Zenexcloud Virtual Machines. Clean environments, built to last.</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+
