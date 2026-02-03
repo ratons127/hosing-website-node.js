@@ -1,0 +1,63 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Zenexcloud - Create Account</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="auth-body">
+    <div class="backdrop">
+      <div class="mesh"></div>
+      <div class="glow"></div>
+    </div>
+
+    <header class="nav">
+      <div class="logo">
+        <span class="logo-mark"></span>
+        <span>Zenexcloud</span>
+      </div>
+      <nav class="nav-links" id="navLinks">
+        <a href="/">Home</a>
+        <a href="/login.html">Login</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main class="auth">
+      <section class="auth-card">
+        <div>
+          <p class="eyebrow">Get started</p>
+          <h1>Create your Zenexcloud ID</h1>
+          <p class="lead">Start hosting, domains, and CPU rent in minutes.</p>
+        </div>
+        <form id="registerForm" class="auth-form">
+          <label>
+            Full name
+            <input type="text" name="name" placeholder="Raton Islam" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@zenexcloud.com" required />
+          </label>
+          <label>
+            Password
+            <input type="password" name="password" placeholder="At least 8 characters" minlength="8" required />
+          </label>
+          <button class="btn primary" type="submit">Create account</button>
+          <p class="form-note">Already have an account? <a href="/login.html">Sign in</a></p>
+          <p class="form-error" id="registerError"></p>
+        </form>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+    <script src="auth.js"></script>
+  </body>
+</html>
